@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0px 1px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav1{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 850;
+    padding: 3px;
+    border-radius: 50px;
+
+}
+#nav i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 15px;
+    padding: 3px;
+    border-radius: 50px;
+
+}
+#nav2 h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+
+}
+#b{
+    border: none;
+    background-color: orangered;
+    color: aqua;
+}
+#adv{
+    font-size: 170px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+#im1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#im2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#im3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#im4{
+    transform: translate(-50%, -50%) rotate(-5deg);
+}
+#btml{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 20px;
+}
+#btmr{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 20px;
+}
+#inst{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    font-size: 30px;
+}
+#yt{
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+    font-size: 30px;
+}
+#fb{
+    position: absolute;
+    bottom: 8%;
+    right: 6%;
+    font-size: 30px;
+}
+#dwn{
+    position: absolute;
+    bottom: -2%;
+   right: 49%;
+    font-size: 80px;
+}
+#arw{
+    position: absolute;
+    bottom: 1%;
+    right: 50%;
+    font-size: 50px;
+}
